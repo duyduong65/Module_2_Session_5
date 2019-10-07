@@ -1,12 +1,12 @@
 <?php
 
 
-class CricleComparator implements Comparator
+class CircleComparator implements Comparator
 {
-    public function compare($cricleOne, $cricleTwo)
+    public function compare($circleOne, $circleTwo)
     {
-        $radiusOne = $cricleOne->getRadius();
-        $radiusTwo = $cricleTwo->getRadius();
+        $radiusOne = $circleOne->getRadius();
+        $radiusTwo = $circleTwo->getRadius();
         if ($radiusOne > $radiusTwo) {
             return 1;
         } else if ($radiusOne < $radiusTwo) {

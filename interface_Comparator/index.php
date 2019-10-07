@@ -1,10 +1,10 @@
 <?php
-include_once "cricle.php";
 include_once "comparator.php";
-include_once "cricleComparator.php";
+include_once "circle.php";
+include_once "circleComparator.php";
 
-$cricleOne = new Cricle(5);
-$cricleTwo = new Cricle(10);
-$cricleComparator = new CricleComparator();
+$circleOne = new Circle(5);
+$circleTwo = new Circle(10);
+$circleComparator = new CircleComparator();
 
-echo $cricleComparator->compare($cricleOne,$cricleTwo);
+echo $circleComparator->compare($circleOne,$circleTwo);

@@ -2,5 +2,5 @@
 
 interface Comparator
 {
-    public function compare($cricleOne, $cricleTwo);
+    public function compare($circleOne, $circleTwo);
 }
