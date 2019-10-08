@@ -1,4 +1,5 @@
 <?php
+echo "hello world" . "<br>";
 include_once('edible.php');
 include_once('animal.php');
 include_once('tiger.php');
@@ -18,6 +19,6 @@ foreach ($animals as $animal) {
 $fruit[0] = new Orange();
 $fruit[1] = new Apple();
 
-foreach ($fruit as $fruit){
-    echo $fruit->howToEat()."<br>";
+foreach ($fruit as $fruit) {
+    echo $fruit->howToEat() . "<br>";
 }
